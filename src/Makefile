@@ -1,6 +1,6 @@
 CC=gcc
-SRC=breviere.c
-OUT=../breviere
+SRC=breviaire.c
+OUT=../breviaire
 
 all:
 	${CC} ${CFLAGS} ${SRC} -o ${OUT}
